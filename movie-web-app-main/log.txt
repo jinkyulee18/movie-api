@@ -1,0 +1,127 @@
+URL: /
+Timestamp: Sun Jan 29 2023 01:05:08 GMT+0100 (hora estándar de Europa central)
+
+URL: /favicon.ico
+Timestamp: Sun Jan 29 2023 01:05:09 GMT+0100 (hora estándar de Europa central)
+
+URL: /documentation
+Timestamp: Sun Jan 29 2023 01:05:23 GMT+0100 (hora estándar de Europa central)
+
+URL: /favicon.ico
+Timestamp: Sun Jan 29 2023 01:05:23 GMT+0100 (hora estándar de Europa central)
+
+URL: /
+Timestamp: Sun Jan 29 2023 01:10:38 GMT+0100 (hora estándar de Europa central)
+
+URL: /favicon.ico
+Timestamp: Sun Jan 29 2023 01:10:38 GMT+0100 (hora estándar de Europa central)
+
+URL: /favicon.ico
+Timestamp: Sun Jan 29 2023 01:10:40 GMT+0100 (hora estándar de Europa central)
+
+URL: /
+Timestamp: Sun Jan 29 2023 21:48:17 GMT+0100 (hora estándar de Europa central)
+
+URL: /favicon.ico
+Timestamp: Sun Jan 29 2023 21:48:18 GMT+0100 (hora estándar de Europa central)
+
+URL: /documentation
+Timestamp: Sun Jan 29 2023 21:48:27 GMT+0100 (hora estándar de Europa central)
+
+URL: /favicon.ico
+Timestamp: Sun Jan 29 2023 21:48:27 GMT+0100 (hora estándar de Europa central)
+
+::1 - - [16/Feb/2023:14:23:45 +0000] "GET /favicon.ico HTTP/1.1" 404 150
+::1 - - [16/Feb/2023:15:43:46 +0000] "GET /movies HTTP/1.1" - -
+::1 - - [16/Feb/2023:15:52:51 +0000] "GET /favicon.ico HTTP/1.1" 404 150
+::1 - - [16/Feb/2023:15:53:08 +0000] "GET /movies HTTP/1.1" - -
+::1 - - [17/Feb/2023:14:11:23 +0000] "GET /favicon.ico HTTP/1.1" 404 150
+::1 - - [17/Feb/2023:14:17:43 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [17/Feb/2023:14:17:55 +0000] "GET /documentation HTTP/1.1" 200 4192
+::1 - - [17/Feb/2023:14:19:02 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [17/Feb/2023:14:20:54 +0000] "GET /users HTTP/1.1" 201 892
+::1 - - [17/Feb/2023:14:23:09 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [17/Feb/2023:14:23:18 +0000] "GET /documentation HTTP/1.1" 304 -
+::1 - - [17/Feb/2023:14:23:29 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [17/Feb/2023:15:00:20 +0000] "GET /favicon.ico HTTP/1.1" 404 150
+::1 - - [17/Feb/2023:15:12:43 +0000] "GET /documentation HTTP/1.1" 304 -
+::1 - - [17/Feb/2023:15:14:45 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [17/Feb/2023:15:19:57 +0000] "GET /users HTTP/1.1" 201 892
+::1 - - [17/Feb/2023:15:20:33 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [17/Feb/2023:15:22:52 +0000] "GET /movies/genre/Drama HTTP/1.1" 200 268
+::1 - - [17/Feb/2023:15:23:11 +0000] "GET /movies/genreName/Drama HTTP/1.1" 404 161
+::1 - - [17/Feb/2023:15:23:27 +0000] "GET /movies/genre/Comedy HTTP/1.1" 200 268
+::1 - - [17/Feb/2023:15:23:47 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [17/Feb/2023:15:24:18 +0000] "GET /movies/News%20of%20the%20world HTTP/1.1" 200 696
+::1 - - [17/Feb/2023:15:25:48 +0000] "GET /movies/Genre/Drama HTTP/1.1" 200 268
+::1 - - [17/Feb/2023:15:26:33 +0000] "GET /movies/Genre/Name/Drama HTTP/1.1" 404 162
+::1 - - [17/Feb/2023:15:26:39 +0000] "GET /movies/GenreName/Drama HTTP/1.1" 404 161
+::1 - - [17/Feb/2023:15:26:54 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [17/Feb/2023:15:30:08 +0000] "GET /movies/genre/Fantasy HTTP/1.1" 200 268
+::1 - - [17/Feb/2023:15:31:10 +0000] "GET /movies/genre/Comedy-Drama HTTP/1.1" 200 268
+::1 - - [17/Feb/2023:15:31:21 +0000] "GET /movies/genre/Thriller HTTP/1.1" 200 268
+::1 - - [17/Feb/2023:15:32:02 +0000] "GET /genre/Drama HTTP/1.1" 404 150
+::1 - - [17/Feb/2023:15:32:11 +0000] "GET /movies/genre/Drama HTTP/1.1" 200 268
+::1 - - [17/Feb/2023:16:22:54 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [17/Feb/2023:16:23:14 +0000] "GET /movies/directors/David%20Yates HTTP/1.1" 200 107
+::1 - - [17/Feb/2023:16:24:01 +0000] "GET /movies/directors HTTP/1.1" 200 4
+::1 - - [17/Feb/2023:16:24:10 +0000] "GET /movies/genre HTTP/1.1" 200 4
+::1 - - [17/Feb/2023:16:24:21 +0000] "GET /movies/genre/Thriller HTTP/1.1" 200 268
+::1 - - [17/Feb/2023:16:24:27 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [17/Feb/2023:16:24:45 +0000] "GET /movies/genres/Drama HTTP/1.1" 404 158
+::1 - - [17/Feb/2023:16:24:49 +0000] "GET /movies/genre/Drama HTTP/1.1" 200 268
+::1 - - [17/Feb/2023:16:25:40 +0000] "GET /movies/users HTTP/1.1" 200 4
+::1 - - [17/Feb/2023:16:25:48 +0000] "GET /users HTTP/1.1" 201 892
+::1 - - [17/Feb/2023:16:25:57 +0000] "GET /users/userSophie HTTP/1.1" 200 244
+::1 - - [17/Feb/2023:16:28:12 +0000] "POST /users HTTP/1.1" 500 136
+::1 - - [17/Feb/2023:16:31:44 +0000] "POST /users HTTP/1.1" 201 176
+::1 - - [17/Feb/2023:16:32:23 +0000] "GET /users HTTP/1.1" 201 1069
+::1 - - [17/Feb/2023:16:33:13 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [17/Feb/2023:16:34:36 +0000] "GET /users HTTP/1.1" 201 1069
+::1 - - [17/Feb/2023:16:36:10 +0000] "GET /users/userBrenda HTTP/1.1" 200 176
+::1 - - [17/Feb/2023:16:37:02 +0000] "PUT /users/userBrenda HTTP/1.1" 200 62
+::1 - - [17/Feb/2023:16:37:39 +0000] "GET /users/userBrenda HTTP/1.1" 200 4
+::1 - - [17/Feb/2023:16:39:33 +0000] "GET /users HTTP/1.1" 201 955
+::1 - - [17/Feb/2023:16:42:14 +0000] "PUT /users HTTP/1.1" 404 144
+::1 - - [17/Feb/2023:16:42:32 +0000] "PUT /users HTTP/1.1" 404 144
+::1 - - [17/Feb/2023:16:42:43 +0000] "POST /users HTTP/1.1" 201 173
+::1 - - [17/Feb/2023:16:43:13 +0000] "GET /users HTTP/1.1" 201 1129
+::1 - - [17/Feb/2023:16:46:02 +0000] "POST /users/userBrenda/movies/63ea2f75b0901de736229d36 HTTP/1.1" 200 199
+::1 - - [17/Feb/2023:16:47:17 +0000] "DELETE /users/userBrenda/movies/63ea2f75b0901de736229d36 HTTP/1.1" 200 173
+::1 - - [17/Feb/2023:16:49:03 +0000] "GET /movies/genre/Drama HTTP/1.1" 200 268
+::1 - - [17/Feb/2023:16:49:51 +0000] "GET /movies/genre/Drama HTTP/1.1" 200 268
+::1 - - [17/Feb/2023:17:01:31 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [17/Feb/2023:17:01:55 +0000] "GET /movies/genre/Fantasy HTTP/1.1" 200 268
+::1 - - [17/Feb/2023:17:02:05 +0000] "GET /movies/genre/Drama HTTP/1.1" 200 268
+::1 - - [17/Feb/2023:17:04:16 +0000] "GET /movies/genre/Drama HTTP/1.1" 200 142
+::1 - - [17/Feb/2023:17:05:25 +0000] "GET /movies/genre/Thriller HTTP/1.1" 200 128
+::1 - - [18/Feb/2023:19:04:53 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [18/Feb/2023:19:06:28 +0000] "GET /USERS HTTP/1.1" 201 1129
+::1 - - [18/Feb/2023:20:40:26 +0000] "GET /USERS HTTP/1.1" 401 -
+::1 - - [18/Feb/2023:20:42:21 +0000] "GET /movies HTTP/1.1" 401 -
+::1 - - [18/Feb/2023:20:44:34 +0000] "POST /users HTTP/1.1" 401 -
+::1 - - [18/Feb/2023:20:49:45 +0000] "POST /users HTTP/1.1" 401 -
+::1 - - [18/Feb/2023:20:50:30 +0000] "POST /users HTTP/1.1" 201 168
+::1 - - [18/Feb/2023:20:53:54 +0000] "GET /login HTTP/1.1" 404 144
+::1 - - [18/Feb/2023:21:05:47 +0000] "GET /movies HTTP/1.1" 401 -
+::1 - - [18/Feb/2023:21:05:56 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [18/Feb/2023:21:07:37 +0000] "GET /movies/directors/Paul%Greengrass HTTP/1.1" 500 49
+::1 - - [18/Feb/2023:21:07:58 +0000] "GET /movies/directors/Paul%20Greengrass HTTP/1.1" 200 135
+::1 - - [18/Feb/2023:21:09:15 +0000] "GET /movies/genre/Comedy-Drama HTTP/1.1" 200 145
+::1 - - [18/Feb/2023:21:10:17 +0000] "GET /movies/News%20of%20%the%20World HTTP/1.1" 500 49
+::1 - - [18/Feb/2023:21:10:26 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [18/Feb/2023:21:10:55 +0000] "GET /movies/News%20of%20the%20world HTTP/1.1" 200 696
+::1 - - [20/Feb/2023:12:56:21 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [20/Feb/2023:12:58:34 +0000] "POST /users HTTP/1.1" 201 178
+::1 - - [20/Feb/2023:13:03:47 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [20/Feb/2023:13:04:48 +0000] "GET /users HTTP/1.1" 201 1477
+::1 - - [20/Feb/2023:13:20:14 +0000] "GET /users HTTP/1.1" 201 1477
+::1 - - [20/Feb/2023:13:20:37 +0000] "DELETE /users/userMartina HTTP/1.1" 200 24
+::1 - - [20/Feb/2023:13:21:12 +0000] "POST /users HTTP/1.1" 201 228
+::1 - - [20/Feb/2023:13:25:25 +0000] "GET /users HTTP/1.1" 201 1527
+::1 - - [20/Feb/2023:14:34:40 +0000] "GET /movies HTTP/1.1" 201 8884
+::1 - - [20/Feb/2023:14:37:46 +0000] "GET /users HTTP/1.1" 201 1527
+::1 - - [20/Feb/2023:14:38:17 +0000] "POST /users/userMartina/movies/63ea41d4f1d6a129c25b022f&63ea3f2095b4773dc89fdb12 HTTP/1.1" 500 169
+::1 - - [20/Feb/2023:14:38:39 +0000] "POST /users/userMartina/movies/63ea41d4f1d6a129c25b022f&63 HTTP/1.1" 500 147
+::1 - - [20/Feb/2023:14:39:18 +0000] "POST /users/userMartina/movies/63ea41d4f1d6a129c25b022f HTTP/1.1" 200 254
+::1 - - [20/Feb/2023:14:39:31 +0000] "POST /users/userMartina/movies/63ea3f2095b4773dc89fdb12 HTTP/1.1" 200 281
